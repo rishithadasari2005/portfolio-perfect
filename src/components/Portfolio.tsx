@@ -1,4 +1,4 @@
-import { ArrowUpRight, Github, Linkedin, Mail, Phone, Trophy, Code2, GraduationCap, Briefcase, Sparkles } from "lucide-react";
+import { ArrowUpRight, Github, Linkedin, Mail, Phone, Trophy, Code2, GraduationCap, Briefcase, Sparkles, Download } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import projTerrain from "@/assets/project-terrain.jpg";
 import projCrop from "@/assets/project-crop.jpg";
@@ -107,6 +107,9 @@ export default function Portfolio() {
             </a>
             <a href="#contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-border bg-card/40 font-medium hover:bg-card transition">
               Get in touch
+            </a>
+            <a href="/resume.pdf" download className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-border bg-card/40 font-medium hover:bg-card transition">
+              <Download className="w-4 h-4" /> Resume
             </a>
           </div>
         </div>
@@ -277,6 +280,16 @@ export default function Portfolio() {
           >
             <Mail className="w-5 h-5" /> dasaririshithapatel.6@gmail.com
           </a>
+
+          <div className="mt-6">
+            <a
+              href="/resume.pdf"
+              download
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-border bg-card/60 font-medium hover:bg-card hover:border-primary/50 transition"
+            >
+              <Download className="w-4 h-4" /> Download Resume
+            </a>
+          </div>
 
           <div className="mt-10 flex items-center justify-center gap-4">
             <SocialLink href="https://github.com/" icon={<Github className="w-5 h-5" />} label="GitHub" />
