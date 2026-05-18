@@ -1,4 +1,4 @@
-import { ArrowUpRight, Github, Linkedin, Mail, Phone, Trophy, Code2, GraduationCap, Briefcase, Sparkles } from "lucide-react";
+import { ArrowUpRight, Github, Linkedin, Mail, Phone, Trophy, Code2, GraduationCap, Briefcase, Sparkles, Download } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import projTerrain from "@/assets/project-terrain.jpg";
 import projCrop from "@/assets/project-crop.jpg";
